@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ms_logo{
+    background-color: black;
+    line-height: 40px;
+}
+.ms_logo img{
+    height: 20px;
+}
+.ms_btn_radius{
+    border-radius: 20px; 
+}
+.ms_search_btn{
+    border: none;
+    color: black;
+}
+/* Sezione Jumbotron */
+.ms_bg_img{
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    min-width: 100%;
+    background-position: center;
+}
+.jumbo_tron{
+    min-height: 600px;
+}
+.ms_img_w{
+    width: 100%;
+}
+.ms_spacing_jumbo{
+    padding-top: 200px
+}
+.ms_spacing_jumbo img{
+    max-height: 80px;
+}
+
+.ms_btns-ex{
+    border-radius: 20px;
+}
+/* sezione ratchet */
+.ms_ratchet_imgs img{
+    max-height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+}
+.ms_ratchet_imgs img:hover{
+    border: 1px solid blue;
+}
+/* sezione bundle ps5 */
+.ms_ps5_bundle h4{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 16px;
+}
+.ms_ps_dim img{
+    max-width: 400px;
+}
