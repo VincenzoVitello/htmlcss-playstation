@@ -11,7 +11,7 @@
     height: 20px;
 }
 .ms_btn_radius{
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 .ms_search_btn{
     border: none;
@@ -58,4 +58,33 @@
 }
 .ms_ps_dim img{
     max-width: 400px;
+}
+.ms_bundle_components img{
+    max-height: 100px;
+}
+.ms_bundle_img_hover img{
+    opacity: .6;
+}
+.ms_bundle_img_hover:hover img{
+    opacity: 1;
+    cursor: pointer;
+}
+.ms_bundle_img_hover:hover{
+    border-bottom: 1px solid blue;
+}
+/* sezione jumbo 2 */
+.ms_bg_img_2{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    min-width: 100%;
+    background-position: center;
+}
+.ms_img_w_2{
+    max-height: 300px;
+}
+/* sezione nuove uscite */
+.ms_new_realases img{
+    max-width: 150px;
+    border-radius: 20px;
+    margin: 10px;
 }
