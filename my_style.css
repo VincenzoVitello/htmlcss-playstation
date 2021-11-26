@@ -105,3 +105,24 @@
     background-color: #0e1538;
     color: white;
 }
+/* footer */
+footer{
+    background-color: #00419e;
+    color: white;
+}
+.ms_w_global{
+    width: 20px;
+}
+.ms_w_ps_footer{
+    width: 100px;
+    display: block;
+    margin: 10px;
+}
+.ms_ul_footer{
+    padding-top: 20px;
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
