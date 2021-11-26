@@ -84,7 +84,24 @@
 }
 /* sezione nuove uscite */
 .ms_new_realases img{
-    max-width: 150px;
     border-radius: 20px;
     margin: 10px;
+}
+/* sezione esplora ps4 */
+.ms_explore_ps4 img{
+  width: 100%;
+}
+/* sezione playstation plus */
+.ms_bg_ps_plus{
+    background-color: #bfbebd;
+}
+.ms_btns-ex_ps_plus{
+    background-color: #dadbdd;
+    color: blue;
+    border-radius: 20px;
+}
+/* sezione ps now */
+.ms_bg_ps_now{
+    background-color: #0e1538;
+    color: white;
 }
