@@ -15,7 +15,17 @@
 }
 .ms_search_btn{
     border: none;
+    color: rgba(0,0,0, .7);
+    background-color: white;
+    height: 100%;
+}
+.ms_search_btn:hover{
+    border: 1px solid black;
     color: black;
+    background-color: white;
+}
+.ms_my_ul{
+    list-style-type: none;
 }
 /* Sezione Jumbotron */
 .ms_bg_img{
@@ -125,4 +135,10 @@ footer{
 footer ul li a{
     color: white;
     text-decoration: none;
+    opacity: .7;
+}
+footer ul li a:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
 }
