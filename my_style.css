@@ -36,19 +36,22 @@
 }
 .jumbo_tron{
     min-height: 600px;
+    max-height: 650px;
 }
 .ms_img_w{
     width: 100%;
 }
-.ms_spacing_jumbo{
-    padding-top: 200px
-}
 .ms_spacing_jumbo img{
-    max-height: 80px;
+    max-width: 400px;
 }
-
+.ms_spacing_jumbo{
+    padding-top: 250px;
+}
 .ms_btns-ex{
     border-radius: 20px;
+}
+.ms_btns-ex:hover{
+    border: 1px solid white;
 }
 /* sezione ratchet */
 .ms_ratchet_imgs img{
@@ -58,7 +61,9 @@
     padding: 5px;
 }
 .ms_ratchet_imgs img:hover{
-    border: 1px solid blue;
+    outline: 1px solid blue;;
+    transform: translate(0px, -15px);
+    transition: .5s;
 }
 /* sezione bundle ps5 */
 .ms_ps5_bundle h4{
